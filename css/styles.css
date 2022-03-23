@@ -1,0 +1,73 @@
+#contact h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+}
+
+#contactdetails h2{
+    text-align: left;
+    text-decoration: rgb(7, 111, 160);
+}
+.footer{
+    padding-top: 5%;
+}
+
+.logo{
+    width: 120px;
+    height: 90px;
+    float: left;
+}
+.nav-link{
+    color: black ;
+}
+.navbar-light{
+    background-color: rgb(136, 233, 250);
+}
+h1{
+    text-align: center;
+    font-size: 10ch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(197, 58, 8);
+}
+body{
+    background-image: url("../Images/surg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+p{
+    text-align: center;
+    font-size: 6ch;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(168, 55, 14);
+}
+.revive{
+    border-radius: 100px;
+    background-size: contain;
+    height: 30vh;
+}
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #aaaaaa10;;
+}
+.card{
+    box-shadow: rgba(173, 166, 166, 0.25) 0px 5px 5px 2px;
+    border: none;
+    background-color: white;
+    transition: all 0.5s linear;
+}
+.card:hover{
+    cursor: pointer;
+    animation: move-up 0.5s linear;
+    transform: translateY(-20px);
+}
