@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
 #contact h2{
     text-align: center;
 }
 #contact{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #contactdetails h2{
@@ -12,62 +20,72 @@
 .footer{
     padding-top: 5%;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+   display: inline-block;
+   list-style: none;
+}
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgba(85, 85, 85, 0.938);
+}
+p {
+    color: #555;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2 {
+    flex-basis: 80% 20%;
+    min-width: 300px;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+    min-width: 300px;
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.header .row{
+margin: top 70px; ;
 
-.logo{
-    width: 120px;
-    height: 90px;
-    float: left;
 }
-.nav-link{
-    color: black ;
-}
-.navbar-light{
-    background-color: rgb(136, 233, 250);
-}
-h1{
-    text-align: center;
-    font-size: 10ch;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    color: rgb(197, 58, 8);
-}
-body{
-    background-image: url("../Images/surg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-}
-p{
-    text-align: center;
-    font-size: 6ch;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    color: rgb(168, 55, 14);
-}
-.revive{
-    border-radius: 100px;
-    background-size: contain;
-    height: 30vh;
-}
-*{
-    box-sizing: 0;
-    margin: 0;
-    padding: 0;
-}
-body{
-    background: #aaaaaa10;;
-}
-.card{
-    box-shadow: rgba(173, 166, 166, 0.25) 0px 5px 5px 2px;
-    border: none;
-    background-color: white;
-    transition: all 0.5s linear;
-}
-.card:hover{
-    cursor: pointer;
-    animation: move-up 0.5s linear;
-    transform: translateY(-20px);
+.btn:hover{
+    background: #563434;
 }
