@@ -6,7 +6,7 @@ A website for a medical equipment supply store,it enables the prospective client
 - Mercy Wambui
 - Diana Kwamboka
 - James Musembi
-## built up with:
+## Technologies used:
 - HTML for building our webpage
 - CSS for styling our webpage.
 - JavaScript for making our webpage interactive.
