@@ -1,7 +1,7 @@
 # Afya-Supplies
 A website for a medical equipment supply store,it enables the prospective client to  navigate through the page and see the products avaible,the user is able to choose the equipments they need,the user can place an order of more than one equipment,since the price of the items are of higher value,the user requests a quote,thy immediately receive an e-mail of their summary of the items of purchase and amount. 
 ## Authors
-- Isir Malak (Scrummer)
+- Isir Malak (Scrum Master)
 - David Kahumbi
 - Mercy Wambui
 - Diana Kwamboka
