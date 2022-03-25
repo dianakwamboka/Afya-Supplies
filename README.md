@@ -32,4 +32,5 @@ If you have any questions or contributions please email:
 - david.kahumbi@student.moringaschool.com
 
 ## License
-MIT License:Copyright (c) 2022 Afya supplies
+MIT License:
+Copyright (c) 2022 Afya supplies
